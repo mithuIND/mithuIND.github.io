@@ -1,0 +1,218 @@
+body {
+    font-family: "Montserrat";
+}
+
+/* first title section is here id:title. All title section css has started here  */
+
+/* section styling  */
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/* div present in title section styling  */
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* navbar-brand is here  */
+.heading {
+    font-size: 2.5rem;
+    font-family: "Ubuntu";
+}
+
+/* navbar-brand styling is ended here  */
+
+/* nav list items are styled here  */
+.link-1 {
+    padding: 0 2.5rem;
+    font-family: "Ubuntu";
+    font-size: 18px;
+}
+
+/* nav lists styling ended here  */
+/* navigation bar styling has ended here  */
+
+/* section one: title section has started here  */
+.div-1 {
+    margin-top: 20px;
+    padding-top: 1.5rem;
+}
+
+/* h1 heading is here  */
+
+.big-heading {
+    font-family: "Montserrat-Black", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* buttons from title section and footer section are styled here  */
+
+.button {
+    margin: 5% 3% 5% 0;
+}
+
+/* buttons styling is ended  */
+
+/* iphone image is styled here  */
+
+.rotated {
+    transform: rotate(25deg);
+    width: 60%;
+    margin-bottom: -10.5rem;
+    position: relative;
+    padding-left: 2rem;
+}
+
+/* image styling has ended here  */
+
+/* section one styling ended here */
+/* *********************************************  */
+
+
+/* Section Two: Features styling started here  */
+
+/* features styling container is styled here  */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+/* all h3 headings inside the features section are styled here  */
+.h3-heading {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+/* all icons are present in the features section are styled here with hover effect  */
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+    margin-bottom: 1rem;
+}
+
+/* all paragraphs are styled here */
+.features-para {
+    color: #8f8f8f;
+}
+
+/* features section styling has ended here  */
+
+
+/* Testimonials section  */
+
+#testimonials {
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+}
+
+/* carousal container styling has started here  */
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* testimonials h2 headings are styled here  */
+.testimonial-text {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* testimonial user images are styled here  */
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* press has styling has started here  */
+/* press container styling  */
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+/* press-logo styling  */
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+
+/* testimonials section has ended here  */
+/* ********************************  */
+
+/* Pricing section  */
+
+#pricing {
+    padding: 6rem;
+    text-align: center;
+}
+
+/* container for pricing cards styled here  */
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* buttons present in the pricing section are styled here  */
+.btn-sec {
+    width: 100%;
+}
+
+/* cta section  */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+    color: #fff;
+}
+
+.last-head {
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    line-height: 2;
+}
+
+/* footer section  */
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.foot-note {
+    margin-top: 1rem;
+}
+
+.last-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1100px) {
+    #title {
+        text-align: center;
+    }
+
+    .rotated {
+        position: static;
+        transform: rotate(0deg);
+        margin-bottom: 5rem;
+    }
+}
